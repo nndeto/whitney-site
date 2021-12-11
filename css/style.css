@@ -30,19 +30,30 @@
    top: 0;
 }
 
+.home-a {
+    text-decoration: none;
+    color: #F2F2F2;
+}
+
+.home-a:hover {
+    color: #8C0368;
+}
+
+.logo:hover {
+    border-right: 2px solid #F2F2F290;  
+}
+
 .logo {
     font-weight: bold;
     font-size: 24px;
     font-family: 'Sacramento', cursive;
     border-right: 2px solid #8C0368;
-    /* border-bottom: 2px solid #8C0368; */
-    /* border-radius: 0px 0px 20px 0px; */
     padding: 15px 15px 10px 20px;
 }
 
 .nav-bar {
     display: inline-block;
-    margin-left: 540px;
+    margin-left: 640px;
 }
 
 nav a {
@@ -51,9 +62,9 @@ nav a {
 }
 
 nav a:hover {
-   border-bottom: 3px solid #8C0368;
+   border-bottom: 3px solid #F2F2F290;
    padding-bottom: 5px;
-   color:#F2F2F290;
+   color: #8C0368;
 }
 
 nav li {
