@@ -28,6 +28,7 @@
    position: sticky;
    position: -webkit-sticky;
    top: 0;
+   z-index: 1;
 }
 
 .home-a {
@@ -162,4 +163,45 @@ nav li {
     color: #F2F2F2;
     font-family: 'Sacramento', cursive;
     text-align: center;
+}
+
+
+/* Work Page */
+.work-content {
+    background-color: #26222350;
+    color: #F2F2F2;
+    font-family: 'Montserrat', sans-serif;
+    padding: 60px 20px;
+}
+
+.work-container {
+    display: flex;
+    flex: 50;
+    justify-content: space-between;
+    margin: 0px 120px;
+}
+
+.work-img {
+    border-radius: 10px;
+    filter: grayscale(.6)
+}
+
+.work-img:hover {
+    filter: grayscale(0);
+}
+
+.w-title {
+    font-size: 24px;
+    margin-bottom: 40px;
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+.work-words {
+    display: flex;
+    align-content: center;
+}
+
+.no-back {
+    background: none;
 }
