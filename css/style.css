@@ -9,7 +9,7 @@
 }
 
 .body {
-    background: url(images/background.jpg);
+    background: url(/css/images/whit-background-loves.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -21,9 +21,8 @@
 
 /* Header & Nav Styling */
 .header {
-   background-color: #D9B8D0; 
-   padding: 5px 10px;
-   color: #F2F2F2;
+   background-color: #F2F2F2; 
+   padding: 0px 10px;
    font-family: 'Montserrat', sans-serif;
    position: sticky;
    position: -webkit-sticky;
@@ -33,22 +32,23 @@
 
 .home-a {
     text-decoration: none;
-    color: #F2F2F2;
+    color:#8C0368;
 }
 
 .home-a:hover {
-    color: #8C0368;
+    color: #262223;
 }
 
 .logo:hover {
-    border-right: 2px solid #F2F2F290;  
+    border-right: hidden;
+    border-bottom: 3px double #8C0368;  
 }
 
 .logo {
     font-weight: bold;
-    font-size: 24px;
+    font-size: 26px;
     font-family: 'Sacramento', cursive;
-    border-right: 2px solid #8C0368;
+    border-right: 3px double #262223;
     padding: 15px 15px 10px 20px;
 }
 
@@ -59,36 +59,48 @@
 
 nav a {
     text-decoration: none;
-    color: #F2F2F2;
+    color: #8C0368;
+    border-right: 3px double #26222380;
 }
 
 nav a:hover {
-   border-bottom: 3px solid #F2F2F290;
-   padding-bottom: 5px;
-   color: #8C0368;
+   /* border-bottom: 3px double #26222380; */
+   /* padding-bottom: 5px; */
+   color: #8C036880;
 }
 
 nav li {
     display: inline-block;
     list-style-type: none;
     font-size: 18px;
-    padding: 30px;
+    margin: 30px 45px;
 }
 
 
 /* Main Styling */
+
+.main-title-block {
+    padding: 240px 15px;
+    color: #8C0368;
+}
+
 .main-name {
-    color: #F2F2F2;
+    /* color: #F2F2F2; */
     font-family: 'Bebas Neue', cursive;
     letter-spacing: .5rem;
     font-size: 210px;
-    padding: 180px 15px;
     text-align: center;
     font-weight: bold;
 }
 
+.main-tag {
+    text-align: center;
+    font-family:'Montserrat', sans-serif;
+    /* color: #F2F2F2; */
+}
+
 .main-content {
-    background-color: #26222390;
+    background-color: #26222370;
     color: #F2F2F2;
     font-family: 'Montserrat', sans-serif;
     padding: 40px 20px;
@@ -183,7 +195,8 @@ nav li {
 
 .work-img {
     border-radius: 10px;
-    filter: grayscale(.6)
+    filter: grayscale(.6);
+    box-shadow: 2px 2px 1px black;
 }
 
 .work-img:hover {
