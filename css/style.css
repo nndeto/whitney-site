@@ -6,6 +6,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .body {
@@ -17,6 +18,36 @@
 
 .align-right {
     text-align: right;
+}
+
+.img-banner-one {
+    background: url(images/scrabble-one.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    filter: grayscale(.9);
+}
+
+.img-banner-two {
+    background: url(images/scrabble-two.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    filter: grayscale(.9);
+}
+
+.work-img-banner {
+    background: url(images/work-banner.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    filter: grayscale(.9);
 }
 
 /* Header & Nav Styling */
@@ -85,7 +116,6 @@ nav li {
 }
 
 .main-name {
-    /* color: #F2F2F2; */
     font-family: 'Bebas Neue', cursive;
     letter-spacing: .5rem;
     font-size: 210px;
@@ -110,6 +140,7 @@ nav li {
     padding: 50px;
     font-size: 46px;
     text-align: left;
+    color:#F2F2F2;
 }
 
 .main-text {
@@ -119,19 +150,22 @@ nav li {
 }
 
 .main-content-two {
-    color: #F2F2F2;
     font-family: 'Montserrat', sans-serif;
     padding: 40px 20px;
     margin-bottom: 40px;
 }
 
 /* Endorsements */
+.endorse-head {
+    color: #262223;
+}
+
 .endorse-banner {
     margin: 0px 100px;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
-    /* gap: 90px; */
+    color: #262223;
 }
 
 .endorse-container {
@@ -168,22 +202,24 @@ nav li {
     text-align: left;
 }
 
-/* Footer Styling */
-.footer {
-    background-color: #262223; 
-    padding: 10px 0px;
-    color: #F2F2F2;
-    font-family: 'Sacramento', cursive;
+
+/* Work Page */
+.work-name {
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: .5rem;
+    font-size: 210px;
     text-align: center;
+    font-weight: bold;
+    color: #8C0368;
+    padding: 240px 15px;
 }
 
 
-/* Work Page */
 .work-content {
     background-color: #26222350;
     color: #F2F2F2;
     font-family: 'Montserrat', sans-serif;
-    padding: 60px 20px;
+    padding: 100px 20px;
 }
 
 .work-container {
@@ -195,8 +231,8 @@ nav li {
 
 .work-img {
     border-radius: 10px;
-    filter: grayscale(.6);
-    box-shadow: 2px 2px 1px black;
+    filter: grayscale(.5);
+    box-shadow: 2px 2px 6px gray;
 }
 
 .work-img:hover {
@@ -217,4 +253,35 @@ nav li {
 
 .no-back {
     background: none;
+    color: #262223; 
+}
+
+.work-foot {
+    text-align: right;
+    padding: 150px 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+button {
+    background: #F2F2F2;
+    border:none;
+    box-shadow: 4px 4px 6px gray;
+    font-size: 16px;
+    border-radius: 15px;
+    padding: 10px 30px;
+    margin: 60px 0px 20px 0px;
+}
+
+button:hover {
+    background: #F2F2F290;
+}
+
+/* Footer Styling */
+.footer {
+    background-color: #262223; 
+    padding: 10px 0px;
+    color: #F2F2F2;
+    font-family: 'Sacramento', cursive;
+    text-align: center;
 }
