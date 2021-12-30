@@ -10,6 +10,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="../favicon_io (1)/favicon-16x16.png">
     <link rel="manifest" href="../favicon_io (1)/site.webmanifest">
     <link rel="stylesheet" href="../css/style.css">
+    <!-- <meta http-equiv="refresh" content="7; url='https://www.w3docs.com'" /> -->
     <title>WS | Contact</title>
 </head>
 <body class = "body">
@@ -38,32 +39,32 @@
     <main>
         <h1 class = "work-name">Connect</h1>
         <div class = "form-wrapper">
-
-            <form action="mailto:n_ndeto@yahoo.com" method="POST" enctype=”multipart/form-data”>
-                <div class = "form-spacing">
-                    <label for = "fName">Full Name <span class = "required-red">*</span></label>
-                    <br>
-                    <input type = "text" id = "fName" placeholder="First & Last" required>
-                    <br>
-                </div>
-                <div class = "form-spacing">
-                    <label for = "email">Email <span class = "required-red">*</span></label>
-                    <br>
-                    <input type = "email" id = "email" placeholder="..." required>
-                    <br>
-                </div>
-                <div class = "form-spacing">
-                    <label for = "pNumber">Phone Number</label>
-                    <br>
-                    <input type = "text" id = "pNumber" placeholder="(optional)">
-                    <br>
-                </div>
-                <div class = "form-spacing">
-                    <label for = "message">What are your needs?<span class = "required-red">*</span></label>
-                    <br>
-                    <textarea type = "textarea" id ="message" placeholder = "..." required></textarea>
-                    <br>
-                </div>
+            <img class = "contact-img" src = "../css/images/whit-b.jpg" alt = "Headshot" width = "400" height = "400"> 
+            <form name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xnqwndnz" method="post">
+                    <div class = "form-spacing">
+                        <label for = "fullName">Full Name <span class = "required-red">*</span></label>
+                        <br>
+                        <input type = "text" name="Full Name" id = "fullName" placeholder="First & Last" required>
+                        <br>
+                    </div>
+                    <div class = "form-spacing">
+                        <label for = "email">Email <span class = "required-red">*</span></label>
+                        <br>
+                        <input type = "email" name = "Email Address" id = "email" placeholder="..." required>
+                        <br>
+                    </div>
+                    <div class = "form-spacing">
+                        <label for = "pNumber">Phone Number</label>
+                        <br>
+                        <input type = "text" name = "Phone Number Optional" id = "pNumber" placeholder="(optional)">
+                        <br>
+                    </div>
+                    <div class = "form-spacing">
+                        <label for = "message">What are your needs?<span class = "required-red">*</span></label>
+                        <br>
+                        <textarea type = "textarea" name="Message" id ="message" placeholder = "..." required></textarea>
+                        <br>
+                    </div>
                 <div class = "form-spacing">
                     <br>
                     <input class = "form-button" type = "submit" value = "Submit">
