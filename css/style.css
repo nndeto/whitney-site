@@ -165,6 +165,7 @@ nav li {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
+    gap: 50px;
     color: #262223;
 }
 
@@ -363,15 +364,53 @@ textarea {
     .logo {
         margin-right: 400px;
     }
+
 }
-/* 
-/* @media screen and (max-width: 800px ){
+
+
+@media screen and (max-width: 800px ){
+    .contact-img {
+        visibility: hidden;
+    }
+
+    .img-banner-one,
+    .img-banner-two {
+        display: none;
+    }
+
+    .main-title-block {
+        padding: 140px 15px;
+    }
+
     .logo {
         margin-right: 200px;
     }
-} */ */
-/* @media screen and (max-width: 1200px ){
-    .logo {
-        margin-right: 400px;
+
+    .main-name,
+    .work-name {
+        font-size: 100px;
     }
-} */
+
+    .main-tag {
+        font-size: 16px;
+    }
+
+    .main-sub-header {
+        font-size: 38px;
+    }
+
+    .main-text {
+        font-size: 16px;
+    }
+
+    .work-container {
+        flex-flow: row wrap;
+    }
+
+    .work-img {
+        width: 200px;
+        height: auto;
+    }
+
+
+} 
