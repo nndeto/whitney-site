@@ -10,7 +10,7 @@
 }
 
 .body {
-    background: url(images/whit-background-loves.jpg);
+    background: url("images/whit-background-loves.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -21,7 +21,7 @@
 }
 
 .img-banner-one {
-    background: url(images/trial-c.jpg);
+    background: url("images/trial-c.jpg");
     height: 500px;
     background-repeat: no-repeat;
     background-position: top;
@@ -31,7 +31,7 @@
 }
 
 .img-banner-two {
-    background: url(images/trial-c.jpg);
+    background: url("images/trial-c.jpg");
     height: 500px;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -41,7 +41,7 @@
 }
 
 .work-img-banner {
-    background: url(images/trial-b.jpg);
+    background: url("images/trial-b.jpg");
     height: 400px;
     background-repeat: no-repeat;
     background-position: center;
